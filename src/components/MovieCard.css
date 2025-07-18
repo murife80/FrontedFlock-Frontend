@@ -1,0 +1,19 @@
+/* src/components/MovieCard.css */
+.movie-card {
+  width: 160px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
